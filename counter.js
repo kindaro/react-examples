@@ -1,4 +1,4 @@
-const ExampleReactComponent = function () {
+const Counter = function () {
   var [state, setState] = React.useState({ step: 0, opacity: 1, counter: 0 });
   const updateState = () => {
     if (state.step == 1) {
@@ -22,18 +22,14 @@ const ExampleReactComponent = function () {
 
   return (
     <div>
-      <p>button updating thing</p>
+      <h1>counter</h1>
       <button onClick={() => setState({ ...state, step: 1 })}>
-        update state
+        one more please
       </button>
       <p style={{ opacity: state.opacity }}>{state.counter}</p>
-      <p>{JSON.stringify(state)}</p>
+      <p>debug information: {JSON.stringify(state)}</p>
     </div>
   );
 };
 
-ReactDOM.render(
-  React.createElement(ExampleReactComponent),
-  document.getElementById("react"),
-);
-ReactDOM.render(<ExampleReactComponent />, document.getElementById("react-2"));
+ReactDOM.render(<Counter />, document.getElementById("counter"));
