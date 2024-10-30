@@ -44,6 +44,7 @@ const Counter = function () {
         <DictionaryTable dictionary={state} />
         <button
           class="btn btn-primary"
+          disabled={state.step !== 0}
           onClick={() => setState({ ...state, step: 1 })}
         >
           one more please
