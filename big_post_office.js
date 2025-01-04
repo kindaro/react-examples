@@ -29,7 +29,6 @@ function Receiver({ mail }) {
 }
 
 function Pigeon({ mail }) {
-  console.log(typeof mail);
   return (
     <div class="card m-3">
       <div class="card-body">
@@ -41,7 +40,6 @@ function Pigeon({ mail }) {
 }
 
 function Postman({ mail }) {
-  console.log(typeof mail);
   return (
     <div class="card m-3">
       <div class="card-body">
