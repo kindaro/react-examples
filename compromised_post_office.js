@@ -1,5 +1,5 @@
 function Sender({ mail }) {
-  const [message, setMessage] = React.useState("");
+  const [message, setMessage] = React.useState("I love you!");
   return (
     <div class="card m-3">
       <div class="card-body">
@@ -34,7 +34,7 @@ function Receiver({ mail }) {
 
 function Faker({ mail }) {
   const [checked, setChecked] = React.useState(false);
-  const [fakeMessage, setFakeMessage] = React.useState("");
+  const [fakeMessage, setFakeMessage] = React.useState("I hate you!");
   return (
     <div class="card m-3">
       <div class="card-body">

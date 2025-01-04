@@ -1,5 +1,5 @@
 function Sender({ mail }) {
-  const [message, setMessage] = React.useState("");
+  const [message, setMessage] = React.useState("I love you!");
   return (
     <div class="card m-3">
       <div class="card-body">
