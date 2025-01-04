@@ -8,6 +8,6 @@
 
 ## post office
 
-* [Post office.](post_office.html)
-* [Big post office.](big_post_office.html)
-* [Compromised post office.](compromised_post_office.html)
+* [Post office.](post_office.html) Here, one React component called _«sender»_ wants to send a message to another React component called _«receiver»_, and their shared ancestor called _«post office»_ is glad to help them.
+* [Big post office.](big_post_office.html) Now, the village has grown into a city, and the post office had to train a pigeon and hire a postman to deliver mail.
+* [Compromised post office.](compromised_post_office.html) But what if not everyone is who they say they are?
