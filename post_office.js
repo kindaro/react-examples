@@ -17,6 +17,17 @@ function Sender({ mail }) {
   );
 }
 
+function Receiver({ mail }) {
+  return (
+    <div class="card m-3">
+      <div class="card-body">
+        <h5 class="card-header mb-3">receiver</h5>
+        <p>{mail}</p>
+      </div>
+    </div>
+  );
+}
+
 function PostOffice() {
   const [A, setA] = React.useState(undefined);
   return (
