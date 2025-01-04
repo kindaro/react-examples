@@ -1,7 +1,7 @@
 function Sender({ mail }) {
   const [message, setMessage] = React.useState("I love you!");
   return (
-    <div class="card m-3">
+    <div class="card p-3">
       <div class="card-body">
         <h5 class="card-header mb-3">sender</h5>
         <label for="true-message" class="form-label">
@@ -23,7 +23,7 @@ function Sender({ mail }) {
 
 function Receiver({ mail }) {
   return (
-    <div class="card m-3">
+    <div class="card p-3">
       <div class="card-body">
         <h5 class="card-header mb-3">receiver</h5>
         <p>{mail}</p>
@@ -36,10 +36,10 @@ function Faker({ mail }) {
   const [checked, setChecked] = React.useState(false);
   const [fakeMessage, setFakeMessage] = React.useState("I hate you!");
   return (
-    <div class="card m-3">
+    <div class="card">
       <div class="card-body">
         <h5 class="card-header mb-3">pig30n</h5>
-        <div class="form-control">
+        <div class="form-control mb-3">
           <label for="fake-message" class="form-label">
             fake message
           </label>
@@ -73,7 +73,7 @@ function Faker({ mail }) {
 
 function Spy({ mail }) {
   return (
-    <div class="card m-3">
+    <div class="card">
       <div class="card-body">
         <h5 class="card-header mb-3">p0stm4n</h5>
         <p>spying on the message</p>
@@ -91,7 +91,7 @@ function Spy({ mail }) {
 function PostOffice() {
   const [A, setA] = React.useState(undefined);
   return (
-    <div class="card m-3">
+    <div class="card p-3 m-3">
       <div class="card-body">
         <h5 class="card-header mb-3">post office</h5>
         <div class="container">
